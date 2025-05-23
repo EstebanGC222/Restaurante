@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aladdin's Palace</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="./img/logoArabe.jpeg" type="image/x-icon">
+</head>
+<body>
+    <header id="header">
+        <div id="logo-contenedor">
+            <img src="./img/logoArabe.jpeg" alt="Logo del Restaurante" id="logo">
+            <span id="restaurante-nombre">Restaurante Aladdin's Palace</span>
+        </div>
+        <nav>
+            <button data-target="desayunos">Desayunos
+                <div class="lista-contenido">
+                    <a class="lista-item" data-target="baghrir">Baghrir</a>
+                    <a class="lista-item" data-target="sfijas">Sfijas</a>
+                    <a class="lista-item" data-target="shakshuka">Shakshuka</a>
+                    <a class="lista+6-item" data-target="fatayer">Fatayer</a>
+                </div>
+            </button>
+            <button data-target="almuerzos">Almuerzos
+                <div class="lista-contenido">
+                    <a class="lista-item" data-target="falafel">Falafel</a>
+                    <a class="lista-item" data-target="mujadara">Mujadara</a>
+                    <a class="lista-item" data-target="kebab">Kebab</a>
+                    <a class="lista-item" data-target="tabbouleh">Tabbouleh</a>
+                </div>
+            </button>
+            <button data-target="comidas">Comidas
+                <div class="lista-contenido">
+                    <a class="lista-item" data-target="couscous">Couscous</a>
+                    <a class="lista-item" data-target="kabsa">Kabsa</a>
+                    <a class="lista-item" data-target="mansaf">Mansaf</a>
+                    <a class="lista-item" data-target="maqluba">Maqluba</a>
+                </div>
+            </button>
+            <button data-target="entradas">Entradas
+                <div class="lista-contenido">
+                    <a class="lista-item" data-target="hummus">Hummus</a>
+                    <a class="lista-item" data-target="kibbeh">Kibbeh</a>
+                    <a class="lista-item" data-target="baba-ganoush">Baba Ganoush</a>
+                    <a class="lista-item" data-target="tabule">Tabule</a>
+                </div>
+            </button>
+            <button data-target="menu-infantil">Menú Infantil
+                <div class="lista-contenido">
+                    <a class="lista-item" data-target="kabsa-infantil">Kabsa Infantil</a>
+                    <a class="lista-item" data-target="falafel-kids">Falafel Kids</a>
+                    <a class="lista-item" data-target="mini-shawarma">Mini Shawarma</a>
+                    <a class="lista-item" data-target="pita-pizza">Pita Pizza</a>
+                </div>
+            </button>
+            <button data-target="bebidas">Bebidas
+                <div class="lista-contenido">
+                    <a class="lista-item" data-target="cafe-arabe">Café Árabe</a>
+                    <a class="lista-item" data-target="jallab">Jallab</a>
+                    <a class="lista-item" data-target="qamar-al-din">Qamar Al-Din</a>
+                    <a class="lista-item" data-target="te-menta">Té de Menta</a>
+                </div>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="desayunos" class="menu-seccion">
+            <h2>Desayunos</h2>
+            <div class="platos">
+                <div class="plato" data-id="baghrir">
+                    <img src="./img/Desayunos/baghrir.jpg" alt="Desayuno 1">
+                    <div class="info">
+                        <h3>Baghrir</h3>
+                        <p>Estos son unos suaves y esponjosos panqueques marroquíes, conocidos por sus mil agujeros que capturan perfectamente el sirope o la miel. Son ideales para un desayuno ligero pero satisfactorio</p>
+                        <span>$12,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+                <div class="plato" data-id="sfijas">
+                    <img src="./img/Desayunos/sfijas-con-la-verdadera-masa-foto-principal.jpg" alt="Desayuno 2">
+                    <div class="info">
+                        <h3>Sfijas</h3>
+                        <p>Pequeñas empanadas abiertas, originarias de Siria y Líbano, rellenas de carne picada, cebolla y piñones, condimentadas con jugo de limón y especias árabes. Son una opción sabrosa para comenzar el día.</p>
+                        <span>$15,000 por porción de tres</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+                <div class="plato" data-id="shakshuka">
+                    <img src="./img/Desayunos/Shakshuka-main-1.webp" alt="Desayuno 3">
+                    <div class="info">
+                        <h3>Shakshuka</h3>
+                        <p> Un plato tradicional del norte de África y Oriente Medio, que consiste en huevos pochados en una salsa de tomate picante con pimientos, cebolla y especias. Es un desayuno robusto que te llenará de energía.</p>
+                        <span>$18,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+                <div class="plato" data-id="fatayer">
+                    <img src="./img/Desayunos/spinach-fatayer-recipe-2355345-Hero_01-cf40a719ab084e8c8cf36662a4f7f20e.jpg" alt="Desayuno 4">
+                    <div class="info">
+                        <h3>Fatayer</h3>
+                        <p>Empanadas horneadas en forma de triángulo, rellenas de espinacas, cebolla y sumac. Son una opción vegetariana deliciosa y nutritiva para el desayuno.</p>
+                        <span>$14,000 por porción de tres</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="almuerzos" class="menu-seccion">
+            <h2>Almuerzos</h2>
+            <div class="platos">
+                <div class="plato" data-id="falafel">
+                    <img src="./img/Almuerzos/falafel.jpg" alt="Almuerzo 1">
+                    <div class="info">
+                        <h3>Falafel</h3>
+                        <p>Croquetas de garbanzo o habas molidas, mezcladas con hierbas y especias, fritas hasta quedar crujientes. Se sirven en un wrap con tahini y vegetales encurtidos.</p>
+                        <span>$20,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+                <div class="plato" data-id="mujadara">
+                    <img src="./img/Almuerzos/Mujadara.jpg" alt="Almuerzo 2">
+                    <div class="info">
+                        <h3>Mujadara</h3>
+                        <p>Un plato reconfortante hecho con lentejas, arroz y cebolla caramelizada, sazonado con comino y servido con una guarnición de ensalada.</p>
+                        <span>$18,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+                <div class="plato" data-id="kebab">
+                    <img src="./img/Almuerzos/receta-kebab-casero.jpg" alt="Almuerzo 3">
+                    <div class="info">
+                        <h3>Kebab</h3>
+                        <p>Brochetas de carne de cordero o pollo marinadas en especias árabes y asadas a la parrilla. Se sirven con pan de pita, ensalada fresca y salsa de yogur.</p>
+                        <span>$25,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+                <div class="plato" data-id="tabbouleh">
+                    <img src="./img/Almuerzos/Traditional tabbouleh salad.jpg" alt="Almuerzo 4">
+                    <div class="info">
+                        <h3>Tabbouleh</h3>
+                        <p>Una ensalada fresca de origen libanés hecha con bulgur, perejil, menta, tomate, cebolla y aderezada con jugo de limón y aceite de oliva. Perfecta como acompañamiento.</p>
+                        <span>$15,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="comidas" class="menu-seccion">
+            <h2>Comidas</h2>
+            <div class="platos">
+                <div class="plato" data-id="couscous">
+                    <img src="./img/Comidas/couscous.jpg" alt="Comida 1">
+                    <div class="info">
+                        <h3>Couscous</h3>
+                        <p>Sémola de trigo cocida al vapor y mezclada con verduras asadas, garbanzos y pasas, servida con una salsa de tomate y especias.</p>
+                        <span>$22,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+                <div class="plato" data-id="kabsa">
+                    <img src="./img/Comidas/kabsa.jpg" alt="Comida 2">
+                    <div class="info">
+                        <h3>Kabsa</h3>
+                        <p>Un plato tradicional saudí de arroz basmati cocido con una mezcla de especias, pollo, verduras y almendras tostadas. Aromático y lleno de sabor.</p>
+                        <span>$28,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+                <div class="plato" data-id="mansaf">
+                    <img src="./img/Comidas/mansaf-1.jpg" alt="Comida 3">
+                    <div class="info">
+                        <h3>Mansaf</h3>
+                        <p>El plato nacional de Jordania, hecho con cordero cocido en una salsa de yogur seco fermentado, servido sobre arroz y adornado con piñones.</p>
+                        <span>$30,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+                <div class="plato" data-id="maqluba">
+                    <img src="./img/Comidas/Maqluba-web.jpg" alt="Comida 4">
+                    <div class="info">
+                        <h3>Maqluba</h3>
+                        <p>Un plato palestino de arroz, carne (cordero o pollo) y verduras fritas, cocido todo junto y volcado antes de servir, creando un impresionante pastel de arroz.</p>
+                        <span>$27,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="entradas" class="menu-seccion">
+            <h2>Entradas</h2>
+            <div class="platos">
+                <div class="plato" data-id="hummus">
+                    <img src="./img/Entradas/hummus.jpg" alt="Entrada 1">
+                    <div class="info">
+                        <h3>Hummus</h3>
+                        <p>Un cremoso puré de garbanzos mezclado con tahini, ajo, jugo de limón y aceite de oliva. Perfecto para untar en pan de pita.</p>
+                        <span>$10,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+                <div class="plato" data-id="kibbeh">
+                    <img src="./img/Entradas/Kibbeh.jpg" alt="Entrada 2">
+                    <div class="info">
+                        <h3>Kibbeh</h3>
+                        <p>Bolas fritas de carne de res o cordero, mezcladas con bulgur y especias, con un relleno de carne picada y piñones.</p>
+                        <span>$18,000 por porción de tres</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+                <div class="plato" data-id="baba-ganoush">
+                    <img src="./img/Entradas/LIF_2022_BabaGanoush0230-Landscape-Macro-Shot.jpg" alt="Entrada 3">
+                    <div class="info">
+                        <h3>Baba Ganoush</h3>
+                        <p>Una pasta de berenjena asada mezclada con tahini, ajo, jugo de limón y aceite de oliva. Rica y ahumada, ideal para acompañar con pan de pita.</p>
+                        <span>$12,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+                <div class="plato" data-id="tabule">
+                    <img src="./img/Entradas/tabule.jpg" alt="Entrada 4">
+                    <div class="info">
+                        <h3>Tabule</h3>
+                        <p>Ensalada fresca de bulgur, perejil, menta, tomate y cebolla, aderezada con jugo de limón y aceite de oliva. Refrescante y saludable.</p>
+                        <span>$12,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu-infantil" class="menu-seccion">
+            <h2>Menú Infantil</h2>
+            <div class="platos">
+                <div class="plato" data-id="kabsa-infantil">
+                    <img src="./img/Menú infantil/1109_CocinaArabe_Kabsa.jpg" alt="Menú Infantil 1">
+                    <div class="info">
+                        <h3>Kabsa Infantil</h3>
+                        <p>Una versión más sencilla del tradicional Kabsa, adaptada para los más pequeños, con menos especias pero igual de deliciosa.</p>
+                        <span>$15,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+                <div class="plato" data-id="falafel-kids">
+                    <img src="./img/Menú infantil/falafel kids.jpg" alt="Menú Infantil 2">
+                    <div class="info">
+                        <h3>Falafel Kids</h3>
+                        <p>Pequeñas croquetas de garbanzo crujientes, servidas con una porción de papas fritas y una salsa suave de yogur.</p>
+                        <span>$12,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+                <div class="plato" data-id="mini-shawarma">
+                    <img src="./img/Menú infantil/mini shawarma.jpg" alt="Menú Infantil 3">
+                    <div class="info">
+                        <h3>Mini Shawarma</h3>
+                        <p>Rollitos de pan pita rellenos de pollo marinado y asado, con una salsa suave de ajo, perfectos para las manos pequeñas.</p>
+                        <span>$14,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+                <div class="plato" data-id="pita-pizza">
+                    <img src="./img/Menú infantil/pita pizza.jpg" alt="Menú Infantil 4">
+                    <div class="info">
+                        <h3>Pita Pizza</h3>
+                        <p>Pequeñas pizzas hechas con base de pan de pita, cubiertas con salsa de tomate, queso y vegetales frescos. Una opción divertida y deliciosa.</p>
+                        <span>$10,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="bebidas" class="menu-seccion">
+            <h2>Bebidas</h2>
+            <div class="platos">
+                <div class="plato" data-id="cafe-arabe">
+                    <img src="./img/Bebidas/cafe-1024x680.jpg" alt="Almuerzo 1">
+                    <div class="info">
+                        <h3>Café Arabe</h3>
+                        <p>Café preparado con cardamomo y servido en pequeñas tazas.</p>
+                        <span>$6,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+
+                <div class="plato" data-id="jallab">
+                    <img src="./img/Bebidas/Jallab-Updated-2.jpg" alt="Almuerzo 1">
+                    <div class="info">
+                        <h3>Jallab</h3>
+                        <p>Jarabe de dátiles y uvas con agua de rosas, servido frío con piñones.</p>
+                        <span>$7,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+
+                <div class="plato" data-id="qamar-al-din">
+                    <img src="./img/Bebidas/Qamar-al-Din.jpg" alt="Almuerzo 1">
+                    <div class="info">
+                        <h3>Qamar Al-Din</h3>
+                        <p>Jugo de albaricoque espeso y dulce, típico en el Ramadán.</p>
+                        <span>$8,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+
+                <div class="plato" data-id="te-menta">
+                    <img src="./img/Bebidas/Te-de-menta.jpg" alt="Almuerzo 1">
+                    <div class="info">
+                        <h3>Té de Menta</h3>
+                        <p>Té verde refrescante con hojas de menta fresca</p>
+                        <span>$5,000</span>
+                    </div>
+                    <button class="vista-rapida">Vista Rápida</button>
+                </div>
+                
+            </div>    
+        </section>
+    </main>
+
+    <div id="modal" class="modal">
+        <div class="contenido-modal">
+            <span class="cerrar-boton">&times;</span>
+            <img src="" alt="Plato" id="modal-img">
+            <div class="modal-info">
+                <h3 id="modal-nombre"></h3>
+                <p id="modal-descripcion"></p>
+                <span id="modal-precio"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <button id="boton-inicio">Volver</button>
+</body>
+</html>
